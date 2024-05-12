@@ -187,20 +187,28 @@ function App() {
             </div>
             <nav className={`${burgerActive ? "block" : ""}`}>
               <ul>
-                <li>
-                  <a className="active" href="#">
+                <li title="actualites">
+                  <a className="active" href="#" aria-label="actualites">
                     actualites
                   </a>
                 </li>
-                <li>
-                  <a href="#">A propos</a>
+                <li title="a propos">
+                  <a href="#" aria-label="a propos">
+                    A propos
+                  </a>
                 </li>
-                <li>
-                  <a href="#">Contact evenement</a>
-                  <a href="#">entrepreneur & mentor</a>
+                <li title="contact evenement">
+                  <a href="#" aria-label="contact evenement">
+                    Contact evenement
+                  </a>
+                  <a href="#" aria-label="entrepreneur & mentor">
+                    entrepreneur & mentor
+                  </a>
                 </li>
-                <li>
-                  <a href="#">Boite a outils</a>
+                <li title="boite a outils">
+                  <a href="#" aria-label="boite a outils">
+                    Boite a outils
+                  </a>
                 </li>
               </ul>
             </nav>
@@ -430,8 +438,8 @@ function App() {
         <div className="social-wrapper container">
           <div className="social-links">
             <ul>
-              <li>
-                <a href="#">
+              <li title="Facebook link">
+                <a href="#" aria-label="facebook link">
                   <svg
                     width="40"
                     height="40"
@@ -454,8 +462,8 @@ function App() {
                   Facebook
                 </a>
               </li>
-              <li>
-                <a href="#">
+              <li title="Twitter link">
+                <a href="#" aria-label="Twitter link">
                   <svg
                     width="40"
                     height="40"
@@ -478,8 +486,8 @@ function App() {
                   Twitter
                 </a>
               </li>
-              <li>
-                <a href="#">
+              <li title="Linkedin link">
+                <a href="#" aria-label="Linkedin link">
                   <svg
                     width="40"
                     height="40"
@@ -508,8 +516,8 @@ function App() {
                   LinkedIn
                 </a>
               </li>
-              <li>
-                <a href="#">
+              <li title="Youtube link">
+                <a href="#" aria-label="Youtube link">
                   <svg
                     width="40"
                     height="40"
@@ -536,8 +544,8 @@ function App() {
                   youtube
                 </a>
               </li>
-              <li>
-                <a href="#">
+              <li title="temble">
+                <a href="#" aria-label="temble">
                   <svg
                     width="40"
                     height="40"

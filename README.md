@@ -1,8 +1,13 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+get all the package: npm install
 
-Currently, two official plugins are available:
+start the project: npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+notes:
+
+- comme il ne s'aggit que d'une page web.
+  1/ je n'ai pas créé de variable pour le css
+  2/ j'ai choisit css pure au lieu de SCSS ou tailwind,
+  3/ je n'ai pas créé de .env pour mes variable de firebase
+  4/ je n'ai pas fait de code reutilisable car je n'avais pas les dimansion exactes des sections, padding, etc.
